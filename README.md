@@ -6,7 +6,7 @@ A production-ready, full-stack AI application that enables intelligent Q&A, summ
 ![Python](https://img.shields.io/badge/python-3.11+-green.svg)
 ![React](https://img.shields.io/badge/react-18+-blue.svg)
 
-## ✨ Features
+## Features
 
 - **Multi-format Support**: Upload PDFs, audio (MP3, WAV, M4A), and video (MP4, WebM) files
 - **AI-Powered Q&A**: Ask questions about your documents and get intelligent answers
@@ -17,7 +17,7 @@ A production-ready, full-stack AI application that enables intelligent Q&A, summ
 - **Real-time Streaming**: SSE-based streaming responses for chat
 - **Secure Authentication**: JWT-based authentication with rate limiting
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -47,7 +47,7 @@ A production-ready, full-stack AI application that enables intelligent Q&A, summ
    └─────────┘                                   └─────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -127,7 +127,7 @@ npm install
 npm run dev
 ```
 
-## 📖 API Documentation
+## API Documentation
 
 Once the backend is running, access the interactive API documentation:
 - Swagger UI: http://localhost:8000/docs
@@ -148,7 +148,7 @@ Once the backend is running, access the interactive API documentation:
 | POST | `/api/chat/summarize` | Get document summary |
 | POST | `/api/chat/timestamps` | Search for timestamps |
 
-## 🔧 Configuration
+## Configuration
 
 ### Backend Environment Variables
 
@@ -168,7 +168,7 @@ Once the backend is running, access the interactive API documentation:
 |----------|-------------|---------|
 | `VITE_API_URL` | Backend API URL | `/api` |
 
-## 🧪 Testing
+## Testing
 
 ### Backend Tests
 ```bash
@@ -195,7 +195,7 @@ npm test
 npm run test:coverage
 ```
 
-## 🚢 Deployment
+## Deployment
 
 ### Render Deployment
 
@@ -212,7 +212,7 @@ Ensure these are set in your production environment:
 - `MONGODB_URI`: MongoDB Atlas connection string
 - `REDIS_URL`: Redis cloud connection string
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 RAG/
@@ -243,7 +243,7 @@ RAG/
 └── docker-compose.yml
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -251,11 +251,11 @@ RAG/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [OpenAI Whisper](https://github.com/openai/whisper)
